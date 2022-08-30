@@ -1,14 +1,14 @@
 import React from "react";
-import App from "./Form";
+import Main from "./wether";
 
-class Main extends React.Component{
+class App extends React.Component{
   render (){
     return (
       <>
-       <App/>
+       <Main/>
       </>
     )
   }
 }
 
-export default Main
+export default App;
